@@ -330,7 +330,7 @@ nav.container {
   padding: 0 10px;
 }
 
-.project-img img {
+.project-img a img {
   width: 100%;
 }
 
