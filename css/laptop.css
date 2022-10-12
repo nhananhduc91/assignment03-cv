@@ -325,8 +325,8 @@ nav.container {
 }
 
 /* PROJECT */
+
 .project-item {
-  height: 100% !important;
   padding: 0 10px;
 }
 
@@ -337,7 +337,7 @@ nav.container {
 .project-title {
   text-transform: uppercase;
   color: #202020;
-  padding: 10px 20px;
+  padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -359,7 +359,7 @@ nav.container {
 
 .project-status {
   font-size: 14px;
-  padding: 10px 20px;
+  padding: 10px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -380,8 +380,7 @@ nav.container {
 }
 
 .project-detail {
-  /* height: 200px; */
-  padding: 10px 20px;
+  height: 200px;
   font-size: 14px;
   border-collapse: collapse;
 }
@@ -479,6 +478,15 @@ nav.container {
   /* CERTIFICATE */
   .certificate-detail h4 {
     font-size: 1rem;
+  }
+
+  /* PROJECT */
+  .project-title a h4 {
+    font-size: 0.96rem;
+  }
+
+  .project-detail {
+    height: 260px;
   }
 }
 

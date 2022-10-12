@@ -81,7 +81,11 @@
   }
 
   /* PROJECT */
-  .project-detail td:first-child {
-    width: 60px;
+  .project-title a h4 {
+    font-size: 0.9rem;
+  }
+
+  .project-detail {
+    height: 300px;
   }
 }
