@@ -1,0 +1,88 @@
+@media screen and (max-width: 575.98px) {
+  /* BANNER */
+  #banner {
+    padding: 80px 20px;
+  }
+
+  #banner p {
+    margin: 0;
+  }
+
+  /* NAVBAR */
+  nav.container {
+    display: block;
+    text-align: left;
+  }
+
+  .navbar-item {
+    padding: 15px 40px 0 40px;
+  }
+
+  .navbar-item:nth-child(5) {
+    padding-bottom: 15px;
+  }
+
+  /* DISPLAY BLOCK THESE SECTIONS: ABOUT, JOB-INFO, CERTIFICATE */
+  #about > .container-lg,
+  #job-info > .container-lg,
+  #certificate > .container-lg,
+  #project > .container-lg {
+    display: block;
+    padding: 20px;
+  }
+
+  /* CERTIFICATE */
+  .certificate-area {
+    display: block;
+    padding: 20px 0;
+  }
+
+  .certificate-item img {
+    width: 250px;
+  }
+
+  #certificate .section-title {
+    font-size: 1.8rem;
+  }
+
+  .certificate-item:first-child {
+    border-right: none;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .certificate-item:nth-child(2) {
+    padding-left: 0;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .certificate-item:last-child {
+    border-top: none;
+  }
+
+  /* PROJECT */
+
+  #project .section-title {
+    font-size: 1.8rem;
+  }
+
+  .project-item {
+    margin-bottom: 40px;
+  }
+
+  .project-detail td:first-child {
+    width: 100px;
+  }
+
+  /* FOOTER */
+  #footer > .container {
+    padding: 20px;
+  }
+
+  #footer ul li {
+    margin: 0 10px;
+  }
+
+  #footer li a span {
+    display: none;
+  }
+}
